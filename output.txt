@@ -1,0 +1,104 @@
+
+Distribution: Random
+Size: 1000
+  Deterministic - Time: 0.005015s, Peak Memory: 0.01 MB
+  Randomized    - Time: 0.005015s, Peak Memory: 0.01 MB
+Size: 5000
+  Deterministic - Time: 0.031628s, Peak Memory: 0.04 MB
+  Randomized    - Time: 0.031628s, Peak Memory: 0.04 MB
+Size: 10000
+  Deterministic - Time: 0.080861s, Peak Memory: 0.08 MB
+  Randomized    - Time: 0.080861s, Peak Memory: 0.08 MB
+Size: 50000
+  Deterministic - Time: 1.016136s, Peak Memory: 0.40 MB
+  Randomized    - Time: 1.016136s, Peak Memory: 0.40 MB
+
+Distribution: Sorted
+Size: 1000
+  Deterministic - Time: 0.160020s, Peak Memory: 0.01 MB
+  Randomized    - Time: 0.160020s, Peak Memory: 0.01 MB
+Size: 5000
+  Deterministic - Time: 6.132999s, Peak Memory: 0.04 MB
+  Randomized    - Time: 6.132999s, Peak Memory: 0.04 MB
+Size: 10000
+  Deterministic - Time: 26.193308s, Peak Memory: 0.08 MB
+  Randomized    - Time: 26.193308s, Peak Memory: 0.08 MB
+Size: 50000
+  Deterministic - Time: 685.738923s, Peak Memory: 0.40 MB
+  Randomized    - Time: 685.738923s, Peak Memory: 0.40 MB
+
+Distribution: Reverse_sorted
+Size: 1000
+  Deterministic - Time: 0.174011s, Peak Memory: 0.01 MB
+  Randomized    - Time: 0.174011s, Peak Memory: 0.01 MB
+Size: 5000
+  Deterministic - Time: 4.638466s, Peak Memory: 0.04 MB
+  Randomized    - Time: 4.638466s, Peak Memory: 0.04 MB
+Size: 10000
+  Deterministic - Time: 18.365199s, Peak Memory: 0.08 MB
+  Randomized    - Time: 18.365199s, Peak Memory: 0.08 MB
+Size: 50000
+  Deterministic - Time: 475.012888s, Peak Memory: 0.40 MB
+  Randomized    - Time: 475.012888s, Peak Memory: 0.40 MB
+
+Distribution: Partially_sorted
+Size: 1000
+  Deterministic - Time: 0.008462s, Peak Memory: 0.01 MB
+  Randomized    - Time: 0.008462s, Peak Memory: 0.01 MB
+Size: 5000
+  Deterministic - Time: 0.086482s, Peak Memory: 0.04 MB
+  Randomized    - Time: 0.086482s, Peak Memory: 0.04 MB
+Size: 10000
+  Deterministic - Time: 0.142919s, Peak Memory: 0.08 MB
+  Randomized    - Time: 0.142919s, Peak Memory: 0.08 MB
+Size: 50000
+  Deterministic - Time: 0.756795s, Peak Memory: 0.40 MB
+  Randomized    - Time: 0.756795s, Peak Memory: 0.40 MB
+
+Analysis:
+
+Random Distribution:
+  Size 1000:
+    Both algorithms performed equally
+  Size 5000:
+    Both algorithms performed equally
+  Size 10000:
+    Both algorithms performed equally
+  Size 50000:
+    Both algorithms performed equally
+
+Sorted Distribution:
+  Size 1000:
+    Both algorithms performed equally
+  Size 5000:
+    Both algorithms performed equally
+  Size 10000:
+    Both algorithms performed equally
+  Size 50000:
+    Both algorithms performed equally
+
+Reverse_sorted Distribution:
+  Size 1000:
+    Both algorithms performed equally
+  Size 5000:
+    Both algorithms performed equally
+  Size 10000:
+    Both algorithms performed equally
+  Size 50000:
+    Both algorithms performed equally
+
+Partially_sorted Distribution:
+  Size 1000:
+    Both algorithms performed equally
+  Size 5000:
+    Both algorithms performed equally
+  Size 10000:
+    Both algorithms performed equally
+  Size 50000:
+    Both algorithms performed equally
+
+Conclusion:
+Randomized Quicksort generally performs better or equally well compared to
+Deterministic Quicksort, especially for sorted or partially sorted arrays.
+It helps in avoiding worst-case scenarios and provides more consistent
+performance across different input distributions.
